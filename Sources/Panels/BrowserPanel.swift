@@ -5,7 +5,7 @@ import CmuxFoundation
 import CmuxSettings
 import Combine
 import CmuxAppKitSupportUI
-import WebKit
+@preconcurrency import WebKit
 import AppKit
 import Bonsplit
 import CmuxTerminalCore
